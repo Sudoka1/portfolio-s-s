@@ -1,0 +1,54 @@
+.futur{
+    height: 15px;
+    background: linear-gradient(to right, red, black 2000px 0);
+    border-radius: 5px;
+    margin: 0 92px;
+    margin-bottom: 22px;
+    box-shadow: 18px 18px 23px rebeccapurple, -108px -18px 20px rebeccapurple;
+}
+.futur2{
+    height: 15px;
+    background: linear-gradient(to right, red, black 2200px 0);
+    border-radius: 5px;
+    margin: 0 92px;
+    
+}
+.futur3{
+    height: 15px;
+    background: linear-gradient(to right, red, black 1400px);
+    border-radius: 5px;
+    margin: 0 92px;
+    margin-bottom: 22px;
+    box-shadow: 18px 18px 23px rebeccapurple, -108px -18px 20px rebeccapurple;
+}
+.futur4{
+    height: 15px;
+    background: linear-gradient(to right, red, black 1200px);
+    border-radius: 5px;
+    margin: 0 92px;
+    margin-bottom: 22px;
+}
+.futur5{
+    height: 15px;
+    background: linear-gradient(to right, red, black 940px);
+    border-radius: 5px;
+    margin: 0 92px;
+    margin-bottom: 22px;
+    box-shadow: 18px 18px 23px rebeccapurple, -108px -18px 20px rebeccapurple;
+}
+.futur6{
+    height: 15px;
+    background: linear-gradient(to right, red, black 800px);
+    border-radius: 5px;
+    margin: 0 92px;
+    margin-bottom: 22px;
+}
+
+h2{
+    color: blue;
+}
+body{
+    background-color: aquamarine;
+    padding: 60px;
+   
+}

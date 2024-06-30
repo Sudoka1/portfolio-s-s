@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slow Page Transition</title>
+  <style>
+    /* Опциональные стили для страницы */
+    body {
+      transition: opacity 2s ease; /* Анимация прозрачности при переходе */
+    }
+  </style>
+</head>
+<body>
+ 
+  <h1>Welcome to My Website</h1>
+  <p>Click the button to transition to the next page.</p>
+  
+  
+  <button onclick="slowPageTransition()">Go to Next Page</button>
+
+  <script>
+    // Функция для медленного перехода на следующую страницу
+    function slowPageTransition() {
+      document.body.style.opacity = "0"; // Устанавливаем прозрачность на 0
+      setTimeout(function() {
+        window.location.href = "./portfolio2024/1myportfolio-com/robot/index.html"; // Переходим на следующую страницу
+      }, 2000); // Задержка в 2 секунды перед переходом
+    }
+  </script>
+</body>
+</html>

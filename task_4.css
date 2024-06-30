@@ -1,0 +1,16 @@
+h1 , b , main button , main div {
+    color: greenyellow;
+}
+
+h2, p, header, div{
+    color: palegoldenrod;
+}
+
+body{
+    color: greenyellow;
+}
+
+/* Siehe [task_4.html](task_4.html). 
+Bearbeite die HTML-Datei überhaupt nicht, 
+sondern erstelle und bearbeite `task_4.css`, damit jedes Wort "Cucumbers" auf der Seite die Farbe `greenyellow` hat. Alle anderen 
+Wörter müssen `palegoldenrod` sein. */

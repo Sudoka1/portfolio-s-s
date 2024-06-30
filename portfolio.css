@@ -1,0 +1,197 @@
+body {
+  margin: 10px;
+  background-image: url(./pexels-photo-281260.jpeg);
+  transition: opacity 2s ease;
+}
+
+.dropbtn{
+  background-color: blue;
+  color: white;
+  border: none;
+}
+.dropbtn:hover{
+  color: black;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+
+.festebreite {
+  width: 1050px;
+  margin: auto;
+}
+.top-nav {
+  background-color: blue;
+  width: 100%;
+  float: left;
+}
+
+.top-nav li {
+  list-style: none;
+  float: left;
+}
+
+.top-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 3px 25px 3px 3px;
+}
+
+.top-nav li a:hover {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: darkgray;
+}
+
+a:visited {
+  color: black;
+}
+
+#durmekbild {
+  content: url(./portfolio2024/1myportfolio-com/4-bilder/sa1.jpeg);
+  width: 250px;
+  padding-top: 6px;
+  border-radius: 10px;
+}
+
+#suchfeld {
+  float: right;
+  position: relative;
+  top: -80px;
+  left: -10px;
+}
+
+#suchfeld input {
+  height: 30px;
+  background-image: url(https://www.daserste.de/mediasrc/img/base/icon/lupe_gross.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20px;
+  /* border: 44px; */
+  border-color:  black;
+  border-radius: 10px;
+}
+#suchfeld input:hover{
+  background-color: blue;
+  color: white;
+}
+
+#blauerbalken {
+  background-color: blue;
+  height: 25px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#topbox {
+  margin-left: auto;
+  margin-right: auto;
+  height: 5px;
+  width: 1050px;
+  background-color: white;
+}
+
+#bildlinksoben {
+  float: left;
+  margin: 10px;
+}
+
+p {
+  margin: 10px;
+}
+
+h3 {
+  margin: 5px;
+}
+
+#mittlererblock {
+  width: 1050px;
+  height: 446px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.mittlerebloecke {
+  width: 330px;
+  margin: 10px;
+  float: left;
+  overflow: auto;
+}
+
+#grauerbalken {
+  background-color: gray;
+  width: 300px;
+  padding: 2px;
+  margin-bottom: 1px;
+}
+
+#gelberbalken {
+  background-color: yellow;
+  width: 300px;
+  padding: 2px;
+  margin-bottom: 1px;
+}
+
+#lilabalken {
+  background-color: purple;
+  width: 300px;
+  padding: 2px;
+  margin-bottom: 1px;
+}
+
+.white {
+  color: white;
+}
+.contact{
+  margin-left: 16px;
+  margin-top: 1px;
+}
+.sudochu{
+  color: red;
+}
+.sudochu:hover{
+  background-color: blue;
+}
